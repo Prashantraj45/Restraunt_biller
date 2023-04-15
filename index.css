@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    margin-left:15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    margin-top:0px;
+}
+hr{
+    margin: 10px;
+}
+.sec1{
+    display: flex;
+    font-size: 1.9em;
+    align-items: center;
+    font-weight: 400px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+}
+.sec2 button{
+    font-size: 1.2em;
+    margin-left:7px ;
+}
+
+.productsgrid{
+    display: grid;
+    grid-gap: 2rem;
+    height: inherit;
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    margin-bottom: 4%;
+}
+.product{
+    height: 150px;
+    width: 250px;
+    border: 2px solid #333;
+    
+}
+.content{
+    padding: 10px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer {
+  position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    background-color: white;
+  }
+  h3{
+  margin-block-start: 0.3em;
+  }
+ hr{
+    width:97%;
+    margin:0px;
+    padding:0px;
+  }
+  .con{
+    display:flex;
+    flex-direction:row;
+  }
+  .formcon{
+    display:flex;
+    font-size:1.5em;
+    flex-direction:column;
+    margin:10px;
+    flex-basis:35%;
+  }
+  .addcon1,.addcon2,.addcon3,.addcon4{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+  }
+  .addcon3{
+    border: 5px solid black;
+  }
+  .inputcon{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:left;
+    align-items:center;
+    margin:10px;
+  }
+#fur{
+    display:block;
+}
+  .dropd{
+    display:flex;
+    justify-content:center;
+    
+  }
+ option{
+    font-size:1.5em;
+  }
+  #DVD,#Book,#Furniture{
+    display:none;
+  }
+  .addcon4{
+    margin:0px;
+  }
+  input{
+    margin-left:5px;
+  }
+
+  .empty,.ivd{
+    display: none;
+    font-size:1em;
+    color:red;
+    margin:10px;
+  }
